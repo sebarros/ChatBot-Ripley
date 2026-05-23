@@ -1,4 +1,6 @@
 from email_sender import enviar_promocion, generar_email_ripley
+from dotenv import load_dotenv
+load_dotenv()
 
 html = generar_email_ripley(
     cliente="Sebastián",
